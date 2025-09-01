@@ -1,0 +1,58 @@
+:root {
+  --brand: #0d6efd;
+  --soft: #f8f9fa;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header.sticky-top {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .08);
+  z-index: 1030;
+}
+
+.section-box h2 {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: var(--soft);
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.brand-gradient {
+  background: linear-gradient(90deg, var(--brand), #6f42c1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgba(13, 110, 253, .25);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.carousel img {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+footer p {
+  margin: 0;
+}
