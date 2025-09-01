@@ -4,16 +4,15 @@
 }
 
 html {
+  overflow-x: hidden;
   overflow-y: scroll;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 header.sticky-top {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, .08);
+  position: sticky;
+  top: 0;
   z-index: 1030;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .08);
 }
 
 .section-box h2 {
